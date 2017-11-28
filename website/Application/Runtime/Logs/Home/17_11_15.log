@@ -1,0 +1,64 @@
+[ 2017-11-15T09:32:17+08:00 ] 121.239.50.204 /little/thinkphp/index.php/Home/index/login?js_code=0814QW1T0Kg9UW1HGg3T0ssR1T04QW1y&rawData=%7B%22nickName%22%3A%22%E9%A1%BE%E5%8D%8A%E4%BB%99%22%2C%22gender%22%3A1%2C%22language%22%3A%22zh_TW%22%2C%22city%22%3A%22Suzhou%22%2C%22province%22%3A%22Jiangsu%22%2C%22country%22%3A%22China%22%2C%22avatarUrl%22%3A%22https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLH95letCic0zPwfSYulpbicbJOuLR33TlgYwCwyf8EOvwSlNVrk3Tcc5XMp8icwphJL5B3TDq2Gp2Sg%2F0%22%7D&signature=687fc9d37584baaa088b5588b9be885e6dc7396f&iv=rjLFYSOLvfoBTQjMnNuDGQ%3D%3D&encryptedData=depdR8zFcc4fpRUdDWFZCCwvbzrzbN546h2OlqDIbjWkYd18hiuOTcy5C5c3QSN%2Fa%2BRfj0YbdRh9iwBrBJbLRxfAYl3IseELny0Fd9e2pofbudNeqsE7HG1jMxTM6DckNo8TPbV%2FhUL2MIphDZmselkvE226R6FrllDMwWH1O1VX%2B2tC8rNpzyoyZ830BgIVkBTW0vMxCDe93hcqiitkTybCvwfj2%2Ba7Lrxiii5eW%2FIXJF2wjnMB4wNx9oB5p9IlbCzQuHcMboU%2BHy9A3mhpAdd3Lxqr2Ihc5MvjJ3c%2F3VWMMaZFXSDK4BXBaj4L6dMKq%2FLIptzq%2FHo73IUes8Ssc0N8XtAhN8Wu6V0zUwheJoMCxMRoIxYnlr2B5LPckcFGL0BNTJNrFv7FaT3jRRj0pBWkBvA%2FCTIt%2F3H%2FTkC1SpcTSbl13fuSiPZ67rD%2F1b1V1r1FDCbV4OWcbomqRZL7ERwioXn7u%2BctQRTmkFhwMq4%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Use of undefined constant openid - assumed 'openid' /var/www/html/little/thinkphp/Application/Home/Controller/IndexController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant session_key - assumed 'session_key' /var/www/html/little/thinkphp/Application/Home/Controller/IndexController.class.php 第 88 行.
+
+[ 2017-11-15T16:32:16+08:00 ] 117.136.45.47 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-15T16:32:20+08:00 ] 117.136.45.47 /little/thinkphp/index.php/Home/index/login?js_code=003q6aCm071ISl1LbGCm0w0XBm0q6aCY&rawData=%7B%22nickName%22%3A%22%E7%AE%80%E6%B7%A1%E4%B8%80%E7%82%B9%22%2C%22gender%22%3A1%2C%22language%22%3A%22en%22%2C%22city%22%3A%22Suzhou%22%2C%22province%22%3A%22Jiangsu%22%2C%22country%22%3A%22China%22%2C%22avatarUrl%22%3A%22https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2Fytfcr8XN7DwZiaAicfaqaQq9JJGZv9j295iacX39iaeJUYvKkDMZgUg84lOTdbmiaJwBKmbaeYaCYtrw1eVzeXgCS2g%2F0%22%7D&signature=0793c2c17e33404a42d9c618f6d6f5f2fcb3a8c5&iv=iYwVk9Y3VHK3JlUmd88AoA%3D%3D&encryptedData=MJqJ6p%2FeHxBLzHvRrTZk98ldT%2FUZrohvuSg%2FgQATKH%2Bsf6vWf3oiQAEnE17a4vfU8iuIP%2Be873hot266zN76vGGmfHA9DQ57f7isS8sOBuuZyx4y5Ig0tkkkCtPFbMS7%2F6zGauwVxmRhGVBgfYjv5DM3QgZm9vkduB05sEFPSIN%2FUMJ%2FKN8fm%2Fx9qwziM1uao6%2B0q1R9uY6eg2byU9SuNsbhkWH3MGYiPNA9Tz0G5S30s%2BGCrA17BJoQMs8Ihhcc%2FyJX0dYVZKwKgjGV8t7gy7gasLUEWYipoOLeHVn42d5nH1M0n1A8%2FiDiREz2XoLDSaPElFRSduqPRxbh1xZExfqMrBID9TjdOtigisK2Xb4cNvc%2BDm5GjDm6FVI46ykq0xk3oGRaFKTYy%2BZpXC%2BMhcIV13rx4S6itvFw%2BME2uKhSscCSz4bB4Qlzs5%2BVJwEEBrZ58TqYG81i0s25766jptuQd4bLSf%2B%2FsBehFLAAK50%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8] Use of undefined constant openid - assumed 'openid' /var/www/html/little/thinkphp/Application/Home/Controller/IndexController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant session_key - assumed 'session_key' /var/www/html/little/thinkphp/Application/Home/Controller/IndexController.class.php 第 88 行.
+
+[ 2017-11-15T16:32:21+08:00 ] 117.136.45.47 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-15T16:33:05+08:00 ] 117.136.45.47 /little/thinkphp/index.php/Home/Index/uploadfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_user_id`,`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('oJk0E0WSPdGInBAHlI0uSZNeF608','发财树','2017/11/15','叶子耷拉','wxfile://tmp_491dd298818867d82ccd7b2aadacbdfc450dc842ec6ca47a.jpg') [ RunTime:0.0029s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /var/www/html/little/thinkphp/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2017-11-15T16:33:09+08:00 ] 117.136.45.47 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+

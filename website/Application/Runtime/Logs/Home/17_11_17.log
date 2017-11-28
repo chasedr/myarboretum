@@ -1,0 +1,78 @@
+[ 2017-11-17T15:11:25+08:00 ] 117.136.46.203 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-17T15:12:32+08:00 ] 117.136.46.203 /little/thinkphp/index.php/Home/Index/uploadfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_user_id`,`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('oJk0E0WSPdGInBAHlI0uSZNeF608','九里香','2017/11/17','枯萎了一根枝条','wxfile://tmp_c2cb4887aefd589c86ce89995683365620d293755a4d62ec.jpg') [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /var/www/html/little/thinkphp/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-11-17T15:12:37+08:00 ] 117.136.46.203 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-17T15:12:59+08:00 ] 117.136.46.203 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-17T15:13:36+08:00 ] 117.136.46.203 /little/thinkphp/index.php/Home/Index/uploadfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_user_id`,`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('oJk0E0WSPdGInBAHlI0uSZNeF608','空气凤梨','2017/11/17','长侧芽了','wxfile://tmp_aca4e84a0832d4c9db3aeed13b9456f57b18743e019e6705.jpg') [ RunTime:0.0028s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /var/www/html/little/thinkphp/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-11-17T15:13:39+08:00 ] 117.136.46.203 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-17T15:13:51+08:00 ] 117.136.46.203 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+

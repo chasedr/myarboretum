@@ -1,0 +1,561 @@
+[ 2017-11-12T23:03:29+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+NOTIC: [8] Use of undefined constant openid - assumed 'openid' /var/www/html/little/thinkphp/Application/Home/Controller/IndexController.class.php 第 40 行.
+NOTIC: [8] Undefined index: openid /var/www/html/little/thinkphp/Application/Home/Controller/IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant session_key - assumed 'session_key' /var/www/html/little/thinkphp/Application/Home/Controller/IndexController.class.php 第 41 行.
+NOTIC: [8] Undefined index: session_key /var/www/html/little/thinkphp/Application/Home/Controller/IndexController.class.php 第 41 行.
+
+[ 2017-11-12T23:03:39+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2017-11-12T23:04:01+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-11-12T23:04:44+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0007s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('','','','') [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-11-12T23:06:53+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0006s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('','','','') [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2017-11-12T23:07:39+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0006s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('','','','') [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-11-12T23:08:51+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('','2017/11/12','123','123') [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-11-12T23:09:00+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('','2017/11/12','123','123') [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-11-12T23:09:17+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-11-12T23:09:38+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+ERR: 1366:Incorrect string value: '\xE7\xA9\xBA\xE6\xB0\x94...' for column 'selfspace_plantunit_name' at row 1
+ [ SQL语句 ] : INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('空气凤梨','2017/11/12','叶子变红','空气凤梨')
+ERR: 1366:Incorrect string value: '\xE7\xA9\xBA\xE6\xB0\x94...' for column 'selfspace_plantunit_name' at row 1
+ [ SQL语句 ] : INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('空气凤梨','2017/11/12','叶子变红','空气凤梨')
+
+[ 2017-11-12T23:15:10+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+ERR: 1366:Incorrect string value: '\xE7\xA9\xBA\xE6\xB0\x94...' for column 'selfspace_plantunit_name' at row 1
+ [ SQL语句 ] : INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('空气凤梨','2017/11/12','叶子变红','空气凤梨')
+ERR: 1366:Incorrect string value: '\xE7\xA9\xBA\xE6\xB0\x94...' for column 'selfspace_plantunit_name' at row 1
+ [ SQL语句 ] : INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('空气凤梨','2017/11/12','叶子变红','空气凤梨')
+
+[ 2017-11-12T23:15:24+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-11-12T23:15:29+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0006s ]
+ERR: 1366:Incorrect string value: '\xE7\xA9\xBA\xE6\xB0\x94...' for column 'selfspace_plantunit_name' at row 1
+ [ SQL语句 ] : INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('空气凤梨','','','')
+ERR: 1366:Incorrect string value: '\xE7\xA9\xBA\xE6\xB0\x94...' for column 'selfspace_plantunit_name' at row 1
+ [ SQL语句 ] : INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('空气凤梨','','','')
+
+[ 2017-11-12T23:24:54+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('空气凤梨','2017/11/12','叶子变红','空气凤梨') [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-11-12T23:28:19+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('','','','') [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-11-12T23:28:52+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('','','','') [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-11-12T23:29:06+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('','','','') [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-11-12T23:31:54+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('空气凤梨','2017/11/12','叶子变红','空气凤梨') [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-11-12T23:33:32+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('','','','') [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-11-12T23:35:33+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('','','','') [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-11-12T23:36:26+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('','','','') [ RunTime:0.0031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-11-12T23:38:08+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('','','','') [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-11-12T23:38:13+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('','','','') [ RunTime:0.0028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2017-11-12T23:38:55+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0006s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('空气凤梨','2017/11/12','叶子变红','空气凤梨') [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000327s ]
+
+[ 2017-11-12T23:39:09+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('','','','') [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2017-11-12T23:40:11+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant?plantname=%E7%A9%BA%E6%B0%94%E5%87%A4%E6%A2%A8&submittime=2017%2F11%2F12&detail=%E5%8F%B6%E5%AD%90%E5%8F%98%E7%BA%A2%E4%BA%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('','','','') [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-11-12T23:40:15+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant?plantname=%E7%A9%BA%E6%B0%94%E5%87%A4%E6%A2%A8&submittime=2017%2F11%2F12&detail=%E5%8F%B6%E5%AD%90%E5%8F%98%E7%BA%A2%E4%BA%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('','','','') [ RunTime:0.0032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-11-12T23:41:25+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('','','','') [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000323s ]
+
+[ 2017-11-12T23:41:54+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0006s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('','','','') [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-11-12T23:42:36+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('空气凤梨','2017/11/12','叶子变红了','') [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2017-11-12T23:43:35+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('空气凤梨','2017/11/12','叶子变红了','') [ RunTime:0.0038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2017-11-12T23:44:21+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('空气凤梨','2017/11/12','叶子变红了','') [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-11-12T23:46:47+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('空气凤梨','2017/11/12','叶子变红了','wxfile://tmp_1754763912o6zAJs1oJHDAG81CjsCdvehqF4Bkb20e89242ea2493ebefbe88ecb5b06c5.png') [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-11-12T23:52:53+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('空气凤梨','2017/11/12','叶子变红了','wxfile://tmp_1754763912o6zAJs1oJHDAG81CjsCdvehqF4Bkddc8c90f0d0b6bf38f15113f31a25c80.png') [ RunTime:0.0054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2017-11-12T23:55:18+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('空气凤梨','2017/11/12','叶子变红了','undefined') [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-11-12T23:55:23+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('空气凤梨','2017/11/12','叶子变红了','wxfile://tmp_1754763912o6zAJs1oJHDAG81CjsCdvehqF4Bkeb43d485480f654f1084d95c4b0de66d.png') [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-11-12T23:56:02+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0006s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('空气凤梨','2017/11/12','叶子变红了','wxfile://tmp_1754763912o6zAJs1oJHDAG81CjsCdvehqF4Bk1db59cee9e50d465c470b36925c956df.png') [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-11-12T23:56:02+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2017-11-12T23:59:54+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000303s ]
+
+[ 2017-11-12T23:59:54+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/insertplant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('空气','201','dkie','wxfile://tmp_1754763912o6zAJs1oJHDAG81CjsCdvehqF4Bk8c7a72a545e2a0d077bd922c17b899da.png') [ RunTime:0.0028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+

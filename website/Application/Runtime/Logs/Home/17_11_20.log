@@ -1,0 +1,10 @@
+[ 2017-11-20T20:00:52+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+

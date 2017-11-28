@@ -1,0 +1,304 @@
+[ 2017-11-16T10:55:08+08:00 ] 58.211.24.154 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T10:57:05+08:00 ] 58.211.24.154 /little/thinkphp/index.php/Home/Index/uploadfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: INSERT INTO `selfspace` (`selfspace_user_id`,`selfspace_plantunit_name`,`selfspace_inserttime`,`selfspace_describe`,`selfspace_picname`) VALUES ('oJk0E0WSPdGInBAHlI0uSZNeF608','虎尾兰','2017/11/16','中间出新叶了','wxfile://tmp_af4bc14491048d8a4dc9c6295d05c409d1607a4c3a258c93.jpg') [ RunTime:0.0031s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /var/www/html/little/thinkphp/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2017-11-16T10:57:08+08:00 ] 58.211.24.154 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T11:53:49+08:00 ] 58.211.24.154 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WYTR48QOr8OeCt_-FAJ4JY' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T14:25:50+08:00 ] 117.136.68.186 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T17:32:26+08:00 ] 117.136.68.186 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T17:55:10+08:00 ] 117.136.68.186 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T17:55:33+08:00 ] 117.136.68.186 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T17:57:24+08:00 ] 117.136.68.186 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T22:48:54+08:00 ] 117.136.68.186 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T23:01:13+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T23:01:30+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T23:01:42+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0003s ]
+
+[ 2017-11-16T23:02:02+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T23:03:36+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T23:04:27+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0003s ]
+
+[ 2017-11-16T23:04:50+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T23:05:52+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T23:06:02+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T23:07:14+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T23:07:29+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T23:07:39+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T23:08:26+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0003s ]
+
+[ 2017-11-16T23:09:35+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T23:09:58+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T23:10:17+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T23:11:26+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T23:11:41+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
+[ 2017-11-16T23:11:59+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0003s ]
+
+[ 2017-11-16T23:12:32+08:00 ] 112.87.159.111 /little/thinkphp/index.php/Home/Index/getplants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `selfspace` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `selfspace` WHERE ( selfspace_user_id = 'oJk0E0WSPdGInBAHlI0uSZNeF608' ) GROUP BY selfspace_plantunit_name  [ RunTime:0.0002s ]
+
