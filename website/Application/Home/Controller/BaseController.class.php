@@ -4,7 +4,8 @@ use Think\Controller;
 class BaseController extends Controller {
 
 	public function index(){
-		$this->display('Home:upload');
+		//$this->display('Home:upload');
+		$this->display('Home:uploadmaintainplan');
 		echo "index function";
 	}
 
@@ -247,24 +248,46 @@ class BaseController extends Controller {
 	}
 
 	public function uploadmaintainplan(){
+		$maintainplan = M("maintainplan");
 		$userid = 0;
 		$data = array();
 		foreach ($_POST as $key => $value) {
-			$data["maintainplan_"+$key] = $value;
+			var_dump($key."=>".$value);
+
+			$data["maintainplan_".$key] = $value;
 		}
 
 		$plantname = $data["maintainplan_plantname"];
 		$method1 = $data["maintainplan_method1"];
 		$method2 = $data["maintainplan_method2"];
-		if($plantname&&$method1&&$method2){
+
+		$plantnameresult = $maintainplan->where("maintainplan_plantname = '".$plantname.
+		 	"' and maintainplan_method1='".$method1 ."' and maintainplan_method2='".
+		 	$method2."'")->order("maintainplan_version desc")->select();
+		dump($plantnameresult);
+		if(empty($plantnameresult) == 0){
 			//如果全部都存在，则视为同种方案，则需要将version增加1
-			$version = $version + 1;
+			$plantnameresulttemp = array();
+			foreach ($plantnameresult[0] as $key => $value) {
+				if($key != "maintainplan_id"){
+					$plantnameresulttemp[$key] = $value;
+				}
+				if($plantnameresulttemp["maintainplan_inserttime"] == "")
+				{
+					$plantnameresulttemp["maintainplan_inserttime"] = date();
+				}
+			}
+			$plantnameresulttemp['maintainplan_version'] = intval($plantnameresulttemp['maintainplan_version'])+1;
+			$plantnameresulttemp["maintainplan_user_id"] = $userid;
+
+			$maintainplan->add($plantnameresulttemp);
 		}
 		else{
 			//否则新增
+			$data["maintainplan_user_id"] = $userid;
+			$maintainplan->add($data);
 		}
-		$maintainplan = M("maintainplan");
-		$maintainplan->add($data);
+		dump($maintainplan->getLastSql());
 	}
 	public function showselfspace(){
 		$selfspace = M("selfspace");
